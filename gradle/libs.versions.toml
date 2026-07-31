@@ -3,7 +3,7 @@
 [versions]
 arrow = "2.2.3"                       # https://github.com/arrow-kt/arrow/releases
 
-lincheck = "2.39"                     # https://github.com/JetBrains/lincheck/releases
+lincheck = "3.7"                      # https://github.com/JetBrains/lincheck/releases
 
 kotlinx-coroutines = "1.11.0"         # https://github.com/Kotlin/kotlinx.coroutines/releases
 
@@ -17,4 +17,4 @@ kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-c
 kotlinJs = { module = "org.jetbrains.kotlin-wrappers:kotlin-js", version.ref = "kotlin-js" }
 
 arrow-core = { module = "io.arrow-kt:arrow-core", version.ref = "arrow" }
-lincheck = { module = "org.jetbrains.kotlinx:lincheck", version.ref = "lincheck" }
+lincheck = { module = "org.jetbrains.lincheck:lincheck", version.ref = "lincheck" }
